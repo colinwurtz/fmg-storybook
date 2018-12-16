@@ -13,5 +13,5 @@ storiesOf("Button", module)
     )(() => <Button bg="palegoldenrod">Hello world</Button>)
   )
   .addWithJSX("with background 2", () => (
-    <Button bg={text("bg", "green")}>Hello world2</Button>
+    <Button bg={text("bg", "blue")}>Hello world2</Button>
   ));
